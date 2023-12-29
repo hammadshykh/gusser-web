@@ -1,0 +1,35 @@
+.container {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+body {
+  background: url("../image/Bg-image.jpeg") no-repeat center / cover;
+  height: 100vh;
+}
+
+.section-number-game {
+  border-radius: 5px;
+}
+
+input:focus {
+  box-shadow: 0 0 10px red;
+  border-color: red;
+}
+
+.form-control:focus {
+  border-color: #17a2b8;
+  box-shadow: 0 0 0 0.2rem rgb(23 162 184 / 35%);
+}
+.success-value:focus {
+  border-color: #27b817;
+  box-shadow: 0 0 0 0.2rem rgb(23 162 184 / 35%);
+}
+#guess-Btn {
+  z-index: 1;
+}
+.error-alert {
+  color: rgb(251, 29, 29);
+  font-size: 16px;
+  font-weight: 500;
+}
